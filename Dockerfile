@@ -19,6 +19,4 @@ EXPOSE 445
 
 VOLUME /shares
 
-WORKDIR /shares
-
-CMD ["smbd", "-Si"]
+CMD ["smbd", "-FSi", "-d", "2"]
