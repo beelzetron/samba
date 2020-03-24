@@ -19,4 +19,4 @@ EXPOSE 445
 
 VOLUME /shares
 
-CMD ["smbd", "-FS", "-d", "2"]
+CMD ["smbd", "-FS", "-d", "2", "--no-process-group"]
